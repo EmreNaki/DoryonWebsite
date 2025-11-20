@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from '../Navbar/Navbar'
-import background6 from "../../assets/background6.jpg"
+import background6 from "../../assets/background9.jpg"
 import { Footer } from '../Footer/Footer'
 import { Carousel } from '../Carousel/Carousel'
 import ContactFolder from '../ContactFolder/ContactFolder'
@@ -26,24 +26,24 @@ export const HomePage = () => {
           <div className="overlay"></div>
         <div className='row m-5 '>
             <div className="text-box">
-          <h1 className='mx-auto text-center fw-bold text-dark custom-underline '>BİZ KİMİZ?</h1>
+          <h1 className='mx-auto text-center fw-bold text-light custom-underline '>BİZ KİMİZ?</h1>
           </div>
-          <div className='col text-dark'>
+          <div className='col text-light bg-dark'>
                         <div className="text-box">
 
-          <h3 className='text-center text-dark d-flex justify-content-center align-items-center pt-5'>15 yıllık tecrübemizle, Cömertler Yapı ve Mühendislik olarak inşaat ve mühendislik alanında güven, kalite ve estetiği bir araya getiriyoruz. Her projede sağlam temeller üzerine modern yaşam alanları inşa ediyor, müşteri memnuniyetini daima ön planda tutuyoruz.</h3>
+          <h3 className='text-center text-light d-flex justify-content-center align-items-center pt-5'>15 yıllık tecrübemizle, Cömertler Yapı ve Mühendislik olarak inşaat ve mühendislik alanında güven, kalite ve estetiği bir araya getiriyoruz. Her projede sağlam temeller üzerine modern yaşam alanları inşa ediyor, müşteri memnuniyetini daima ön planda tutuyoruz.</h3>
         </div>
          </div>
        
         </div>
         
 <Services/>
-      <hr class="section-divider"></hr>      
+      <hr class="section-divider bg-light"></hr>      
 
     <div className='container-fluid  d-flex flex-column '>
-    <h1 class="big-title  text-dark custom-underline p-3 ms-5 mx-auto me-5 ">PROJELERİMİZ</h1>
+    <h1 class="big-title  text-light custom-underline p-3 ms-5 mx-auto me-5 ">PROJELERİMİZ</h1>
           
-          <div className="card h-100 text-center bg-dark text-dark m-5">
+          <div className="card h-100 text-center bg-light text-dark m-5">
             
             <div className="card-body">
               <div
@@ -63,7 +63,7 @@ export const HomePage = () => {
       <div className="row justify-content-center">
         {/* Card 1 */}
         <div className="col-md-5 mb-3">
-          <div className="card h-100 text-center bg-dark text-light">
+          <div className="card h-100 text-center bg-light text-dark">
             <div className="card-header">
               <h5 className="card-title mb-0">TAMAMLANAN PROJELERİMİZ</h5>
             </div>
@@ -81,7 +81,7 @@ export const HomePage = () => {
 
         {/* Card 2 */}
         <div className="col-md-5 mb-3">
-          <div className="card h-100 text-center bg-dark text-light">
+          <div className="card h-100 text-center bg-light text-dark">
             <div className="card-header">
               <h5 className="card-title mb-0">GELECEK PROJELERİMİZ</h5>
             </div>
@@ -99,6 +99,8 @@ export const HomePage = () => {
       </div>
     </div>
     </div>
+                <hr className="border-5 border-white m-3" />
+
       <ContactFolder/>
     
     

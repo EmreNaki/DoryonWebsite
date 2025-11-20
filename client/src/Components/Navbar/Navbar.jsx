@@ -15,8 +15,8 @@ export const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
 
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <img src={companylogo} alt="Description" className='company-logo p-2' />
+        <nav className="navbar navbar-expand-lg navbar-light bg-light text-dark fixed-top">
+        <img src="" alt="Description" className='company-logo p-2' />
       
       <button
         className="navbar-toggler"

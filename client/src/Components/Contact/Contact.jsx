@@ -32,24 +32,23 @@ export const Contact  = () => {
   return (
     <div>
         <Navbar/>
-        <div className='bg-white text-dark py-2'></div>
-        <div className="bg-dark text-white py-3 ml-1 mt-5">
+        <div className="bg-light text-dark py-3 ml-1 mt-5 mb-3">
   <h1 className="fw-bold m-1 p-2">İLETİŞİM</h1>
 </div>
     <div className='container'>
-        <div className="row text-dark">
+        <div className="row ">
           <div
   className="col p-5"
  
 >
-           <p><FaMapMarkerAlt />Hacı Abdi Mahallesi, 30 Ağustos Cd. No:9/B, 48200 Milas/Muğla</p>
-      <p><FaPhoneAlt /> 0252 513 04 01</p>
-       <p><FaMobileAlt/> 0532 436 04 01</p>
-      <p><FaEnvelope /> info@comerlertyapi.com</p>
+           <p className='text-light'><FaMapMarkerAlt className='logo-bg'/>Hacı Abdi Mahallesi, 30 Ağustos Cd. No:9/B, 48200 Milas/Muğla</p>
+      <p className='text-light'><FaPhoneAlt className='logo-bg'/> 0252 513 04 01</p>
+       <p className='text-light'><FaMobileAlt className='logo-bg'/> 0532 436 04 01</p>
+      <p className='text-light'><FaEnvelope className='logo-bg' /> info@comerlertyapi.com</p>
      
            
-            <h2 className="p-2">Sosyal Medya</h2>
-  <div className="d-flex flex-column mx-auto text-center">
+            <h2 className="p-2 text-light">Sosyal Medya</h2>
+  <div className="d-flex flex-column  text-light mx-auto text-center">
     {/* Instagram */}
     <div className="d-flex align-items-center mb-3">
       <FaInstagram style={{ fontSize: "2rem", marginRight: "10px" }} />
@@ -116,9 +115,9 @@ export const Contact  = () => {
         </div>
         </div>
     </div>
-                <hr class="my-4 border-2 border-dark"></hr>
+                <hr class="my-4 border-2 border-light"></hr>
 
-<h1 className='text-center text-dark fw-bold'>BİZE ULAŞIN</h1>
+<h1 className='text-center text-light fw-bold'>BİZE ULAŞIN</h1>
 <div className='container m-4 ml-8 mx-auto text-dark'>
 <form onSubmit={handleSubmit}>
   <div class="form-group">

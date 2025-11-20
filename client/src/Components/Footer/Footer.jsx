@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <div>
        
-<footer className="text-center text-lg-start bg-dark text-light bg-dark">
+<footer className="text-center text-lg-start  text-dark bg-light">
       {/* Section: Social media */}
       <section className="d-flex justify-content-center justify-content-lg-between py-2 border-bottom">
         {/* Left */}
@@ -32,7 +32,7 @@ export const Footer = () => {
             {/* Company */}
             <div className="col-md-4 mx-auto mb-2">
               
-                <img src={companylogo} alt="Description" className='company-logo2' />
+                <img src="" alt="Description" className='company-logo2' />
               
             </div>
 
