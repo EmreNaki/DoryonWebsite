@@ -22,7 +22,9 @@ const PORT = process.env.PORT || 4000;
 const allowedOrigins = [
   "http://localhost:3000",
   "https://merncompanywebsitefe.onrender.com",
-  "https://www.comertleryapi.com" // kendi domainini buraya ekle
+  "https://www.comertleryapi.com",
+  "https://www.doryon.com.tr",
+  "https://doryonwebsite.onrender.com" // kendi domainini buraya ekle
 ];
 
 app.use(cors({
