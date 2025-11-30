@@ -65,7 +65,7 @@ export const Footer = () => {
       >
         © 2025 Copyright:{" "}
         <a className="text-reset fw-bold" href="#">
-          Cömertler Yapı & Mühendislik
+          Doryon Yapı & Mühendislik
         </a>
       </div>
     </footer>

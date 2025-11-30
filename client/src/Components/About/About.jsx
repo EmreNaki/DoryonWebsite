@@ -12,7 +12,7 @@ export const About = () => {
 
 </div>
           <div className='container-fluid bg-image-overlay3 d-flex flex-column mt-3 justify-content-center align-items-center'>
-            <h2 className='justify-content-center align-items-center mx-auto text-center'>15 yıllık deneyimimizle Cömertler Yapı ve Mühendislik olarak, inşaat ve mühendislik sektöründe güveni, kaliteyi ve estetiği bir arada sunuyoruz. Her projede sağlam temeller üzerine çağdaş yaşam alanları inşa ediyor, müşteri memnuniyetini her zaman önceliğimiz haline getiriyoruz.</h2>
+            <h2 className='justify-content-center align-items-center mx-auto text-center'>15 yıllık deneyimimizle Doryon Yapı ve Mühendislik olarak, inşaat ve mühendislik sektöründe güveni, kaliteyi ve estetiği bir arada sunuyoruz. Her projede sağlam temeller üzerine çağdaş yaşam alanları inşa ediyor, müşteri memnuniyetini her zaman önceliğimiz haline getiriyoruz.</h2>
           </div>
 
     <div className='container mt-3 mb-3'>
@@ -20,7 +20,7 @@ export const About = () => {
         <div className='col'>
             
             <p className='p-5 justify-content-center align-items-center text-light text-center'>
-                15 yıllık deneyimimizle Cömertler Yapı ve Mühendislik olarak, inşaat ve mühendislik sektöründe güveni, kaliteyi ve estetiği bir arada sunuyoruz. Her projede sağlam temeller üzerine çağdaş yaşam alanları inşa ediyor, müşteri memnuniyetini her zaman önceliğimiz haline getiriyoruz.
+                15 yıllık deneyimimizle Doryon Yapı ve Mühendislik olarak, inşaat ve mühendislik sektöründe güveni, kaliteyi ve estetiği bir arada sunuyoruz. Her projede sağlam temeller üzerine çağdaş yaşam alanları inşa ediyor, müşteri memnuniyetini her zaman önceliğimiz haline getiriyoruz.
             </p>
             
         </div>

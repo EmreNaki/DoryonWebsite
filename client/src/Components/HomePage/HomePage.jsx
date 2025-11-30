@@ -29,7 +29,7 @@ export const HomePage = () => {
           <div className='col text-light bg-color '>
                         <div className="text-box">
 
-          <h3 className='text-center text-light d-flex justify-content-center align-items-center pt-5'>15 yıllık tecrübemizle, Cömertler Yapı ve Mühendislik olarak inşaat ve mühendislik alanında güven, kalite ve estetiği bir araya getiriyoruz. Her projede sağlam temeller üzerine modern yaşam alanları inşa ediyor, müşteri memnuniyetini daima ön planda tutuyoruz.</h3>
+          <h3 className='text-center text-light d-flex justify-content-center align-items-center pt-5'>15 yıllık tecrübemizle, Doryon Yapı ve Mühendislik olarak inşaat ve mühendislik alanında güven, kalite ve estetiği bir araya getiriyoruz. Her projede sağlam temeller üzerine modern yaşam alanları inşa ediyor, müşteri memnuniyetini daima ön planda tutuyoruz.</h3>
         </div>
          </div>
        
