@@ -38,10 +38,10 @@ export const HomePage = () => {
 <Services/>
       <hr class="section-divider bg-light"></hr>      
 
-    <div className='container-fluid  d-flex flex-column bg-image-overlay6'>
+    <div className='container-fluid  d-flex flex-column '>
     <h1 class="big-title  text-light custom-underline p-3 ms-5 mx-auto me-5 ">PROJELERİMİZ</h1>
           
-          <div className="card h-100 text-center bg-light text-dark m-5">
+          <div className="card h-100 text-center bg-dark text-light m-5">
             
             <div className="card-body">
               <div
@@ -61,7 +61,7 @@ export const HomePage = () => {
       <div className="row justify-content-center">
         {/* Card 1 */}
         <div className="col-md-5 mb-3">
-          <div className="card h-100 text-center bg-light text-dark">
+          <div className="card h-100 text-center bg-dark text-light">
             <div className="card-header">
               <h5 className="card-title mb-0">TAMAMLANAN PROJELERİMİZ</h5>
             </div>
@@ -79,7 +79,7 @@ export const HomePage = () => {
 
         {/* Card 2 */}
         <div className="col-md-5 mb-3">
-          <div className="card h-100 text-center bg-light text-dark">
+          <div className="card h-100 text-center bg-dark text-light">
             <div className="card-header">
               <h5 className="card-title mb-0">GELECEK PROJELERİMİZ</h5>
             </div>

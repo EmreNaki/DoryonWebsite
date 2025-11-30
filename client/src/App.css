@@ -74,6 +74,10 @@ body {
   background-color: #000000;
 
 }
+
+.bg-white{
+  background-color: white;
+}
 /* left and right images */
 
 
@@ -234,7 +238,7 @@ background-color: lightgrey;
 }
 
 .parallax-section {
-  background-image: url("./assets/background10.jpg");
+  background-image: url("./assets/whitebackground2.jpg");
   background-attachment: fixed;  /* <— the key part */
   background-size: cover;
   background-position: center;

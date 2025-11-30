@@ -24,8 +24,8 @@ export const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
   }, []);
 
   return (
-    <div>
-        <nav className={`navbar navbar-expand-lg fixed-top ${
+    <div className='fw-bold'>
+        <nav className={`navbar navbar-expand-lg fixed-top font-weight-bold ${
     solid ? "navbar-solid " : "navbar-transparent "
   }`}>
         <img src="" alt="Description" className='company-logo p-2' />
@@ -45,7 +45,7 @@ export const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
           <li className="nav-item active">
-            <Link className="nav-link" to="/">
+            <Link className="nav-link text-bold" to="/">
               ANASAYFA <span className="sr-only"></span>
             </Link>
           </li>
