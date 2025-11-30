@@ -65,11 +65,15 @@ body {
     #5DADE2 100%
   );*/
   min-height: 100vh;
-  padding-top: 80px;
-  background-color: #212529;
+  background-color: #000000;
 }
+.pad{
+ margin-top: 80px;
+}
+.bg-color{
+  background-color: #000000;
 
-
+}
 /* left and right images */
 
 
@@ -122,7 +126,7 @@ background-color: lightgrey;
 }
 
 .bg-image-overlay {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/contact.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/contact2.jpeg');
   background-size: cover;
   background-position: center;
   min-height: 400px;
@@ -159,6 +163,14 @@ background-color: lightgrey;
 
 .bg-image-overlay5 {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  color: white;
+}
+
+.bg-image-overlay6 {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/blackbackground.png');
   background-size: cover;
   background-position: center;
   min-height: 400px;
@@ -259,3 +271,14 @@ background-color: lightgrey;
   height: auto; /* keeps the aspect ratio */
 }
 
+.navbar-transparent .nav-link{
+  background-color: transparent !important;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+}
+
+.navbar-solid {
+  background-color: white !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}

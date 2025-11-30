@@ -20,15 +20,13 @@ export const HomePage = () => {
   <Link to="/pastprojects" className="cta-btn">Projelerimize Göz Atın</Link>
   </div>
 </div>
-<div className="bg-dark text-dark py-2"></div>
 
-<div className="bg-dark text-dark py-2"></div>
           <div className="overlay"></div>
         <div className='row m-5 '>
             <div className="text-box">
           <h1 className='mx-auto text-center fw-bold text-light custom-underline '>BİZ KİMİZ?</h1>
           </div>
-          <div className='col text-light bg-dark'>
+          <div className='col text-light bg-color '>
                         <div className="text-box">
 
           <h3 className='text-center text-light d-flex justify-content-center align-items-center pt-5'>15 yıllık tecrübemizle, Cömertler Yapı ve Mühendislik olarak inşaat ve mühendislik alanında güven, kalite ve estetiği bir araya getiriyoruz. Her projede sağlam temeller üzerine modern yaşam alanları inşa ediyor, müşteri memnuniyetini daima ön planda tutuyoruz.</h3>
@@ -40,7 +38,7 @@ export const HomePage = () => {
 <Services/>
       <hr class="section-divider bg-light"></hr>      
 
-    <div className='container-fluid  d-flex flex-column '>
+    <div className='container-fluid  d-flex flex-column bg-image-overlay6'>
     <h1 class="big-title  text-light custom-underline p-3 ms-5 mx-auto me-5 ">PROJELERİMİZ</h1>
           
           <div className="card h-100 text-center bg-light text-dark m-5">
@@ -99,7 +97,6 @@ export const HomePage = () => {
       </div>
     </div>
     </div>
-                <hr className="border-5 border-white m-3" />
 
       <ContactFolder/>
     

@@ -118,10 +118,10 @@ export const Contact  = () => {
                 <hr class="my-4 border-2 border-light"></hr>
 
 <h1 className='text-center text-light fw-bold'>BİZE ULAŞIN</h1>
-<div className='container m-4 ml-8 mx-auto text-dark'>
+<div className='container m-4 ml-8 mx-auto text-light'>
 <form onSubmit={handleSubmit}>
   <div class="form-group">
-    <label htmlFor="exampleFormControlInput1">Email address</label>
+    <label htmlFor="exampleFormControlInput1">Email adresiniz</label>
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" onChange={e => setMail(e.target.value)}/>
   </div>
 <div class="form-group">

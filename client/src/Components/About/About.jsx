@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <div>
         <Navbar/>
-        <div className="bg-light text-dark  py-3 ml-1 mt-5">
+        <div className="bg-light text-dark  py-3 ml-1 pad">
   <h1 className="fw-bold ms-3 mx-auto ">HAKKIMIZDA</h1>
 
 </div>

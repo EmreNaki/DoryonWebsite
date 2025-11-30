@@ -38,8 +38,7 @@ export const FutureProjects = ({ isLoggedIn }) => {
   return (
     <div>
       <Navbar />
-      <div className="bg-white text-dark py-2"></div>
-      <div className="bg-light text-dark py-3 ml-1 mt-5">
+      <div className="bg-light text-dark py-3 ml-1 mt-5 pad">
         <h1 className="fw-bold ms-3 text-dark">GELECEK PROJELERİMİZ</h1>
       </div>
                 <div className='container-fluid bg-image-overlay5 d-flex flex-column mt-3 justify-content-center align-items-center'></div>

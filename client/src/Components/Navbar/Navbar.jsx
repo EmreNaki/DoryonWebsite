@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import {Link} from "react-router-dom"
 import companylogo from "../../assets/companylogo.png"
 
@@ -12,10 +12,22 @@ export const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
     window.location.href = "/login"; // redirect if needed
   };
 
+  const [solid, setSolid] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setSolid(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light text-dark fixed-top">
+        <nav className={`navbar navbar-expand-lg fixed-top ${
+    solid ? "navbar-solid " : "navbar-transparent "
+  }`}>
         <img src="" alt="Description" className='company-logo p-2' />
       
       <button

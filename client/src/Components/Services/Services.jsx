@@ -14,23 +14,23 @@ const Services = () => {
         {/* First row - 3 cards */}
         <div className="row m-4 ">
           <div className="col-md-4 mb-3">
-            <div className="card h-100 text-center p-4">
-              <FaBuilding size={50} className="mx-auto mb-3 text-dark" />
-              <h5 className="card-title">Anahtar Teslim Konut Projeleri</h5>
+            <div className="card h-100 text-center bg-dark p-4">
+              <FaBuilding size={50} className="mx-auto mb-3 text-light" />
+              <h5 className="card-title text-light">Anahtar Teslim Konut Projeleri</h5>
             </div>
           </div>
 
           <div className="col-md-4 mb-3">
-            <div className="card h-100 text-center p-4">
-              <FaProjectDiagram size={50} className="mx-auto mb-3 text-dark" />
-              <h5 className="card-title">Yap-Sat Proje Geliştirme</h5>
+            <div className="card h-100 text-center  bg-dark p-4">
+              <FaProjectDiagram size={50} className="mx-auto mb-3 text-light" />
+              <h5 className="card-title text-light" >Yap-Sat Proje Geliştirme</h5>
             </div>
           </div>
 
           <div className="col-md-4 mb-3">
-            <div className="card h-100 text-center p-4">
-              <FaDraftingCompass size={50} className="mx-auto mb-3 text-dark" />
-              <h5 className="card-title">Mimari ve Mühendislik Tasarımı</h5>
+            <div className="card h-100 text-center  bg-dark p-4">
+              <FaDraftingCompass size={50} className="mx-auto mb-3 text-light" />
+              <h5 className="card-title text-light">Mimari ve Mühendislik Tasarımı</h5>
             </div>
           </div>
         </div>
@@ -38,16 +38,16 @@ const Services = () => {
         {/* Second row - 2 cards centered */}
         <div className="row justify-content-center">
           <div className="col-md-5 mb-3">
-            <div className="card h-100 text-center p-4">
-              <FaHammer size={50} className="mx-auto mb-3 text-dark" />
-              <h5 className="card-title">Kentsel Dönüşüm ve Yenileme</h5>
+            <div className="card h-100 text-center  bg-dark p-4">
+              <FaHammer size={50} className="mx-auto mb-3 text-light" />
+              <h5 className="card-title text-light">Kentsel Dönüşüm ve Yenileme</h5>
             </div>
           </div>
 
           <div className="col-md-5 mb-3">
-            <div className="card h-100 text-center p-4">
-              <FaIndustry size={50} className="mx-auto mb-3 text-dark" />
-              <h5 className="card-title">Ticari ve Endüstriyel Yapılar</h5>
+            <div className="card h-100 text-center bg-dark p-4">
+              <FaIndustry size={50} className="mx-auto mb-3 text-light" />
+              <h5 className="card-title text-light">Ticari ve Endüstriyel Yapılar</h5>
             </div>
           </div>
         </div>
