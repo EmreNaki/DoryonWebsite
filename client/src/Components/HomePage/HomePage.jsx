@@ -23,7 +23,7 @@ export const HomePage = () => {
 </div>
 
           <div className="overlay"></div>
-        <div className='row m-5 '>
+        <div className='mx-2 my-5'>
             <div className="text-box">
           <h1 className='mx-auto text-center fw-bold text-light custom-underline '>BİZ KİMİZ?</h1>
           </div>

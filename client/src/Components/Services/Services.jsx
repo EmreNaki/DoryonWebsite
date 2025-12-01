@@ -3,7 +3,7 @@ import { FaBuilding, FaProjectDiagram, FaDraftingCompass, FaHammer, FaIndustry }
 
 const Services = () => {
   return (
-    <div className="parallax-section">
+    <div className=" parallax-section ">
       <div className="container my-5 p-5">
         <h1 className="text-center fw-bold text-dark custom-underline p-5 m-4">
           HİZMETLERİMİZ

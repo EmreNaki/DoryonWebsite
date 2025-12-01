@@ -251,6 +251,14 @@ background-color: lightgrey;
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .parallax-section {
+    background-attachment: scroll;
+    height: auto;          /* <-- main fix */
+    padding: 40px 0;     
+  }
+}
+
 .overlay {
   position: absolute;
   inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0 */
