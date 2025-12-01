@@ -6,6 +6,7 @@ import { Carousel } from '../Carousel/Carousel'
 import ContactFolder from '../ContactFolder/ContactFolder'
 import Services from '../Services/Services'
 import { Link } from "react-router-dom";
+import ProjectGrid from '../ProjectGrid/ProjectGrid'
 
 export const HomePage = () => {
   return (
@@ -39,64 +40,11 @@ export const HomePage = () => {
       <hr class="section-divider bg-light"></hr>      
 
     <div className='container-fluid  d-flex flex-column '>
-    <h1 class="big-title  text-light custom-underline p-3 ms-5 mx-auto me-5 ">PROJELERİMİZ</h1>
+    <h1 class="big-title  text-light custom-underline ms-5 mx-auto me-5 ">PROJELERİMİZ</h1>
           
-          <div className="card h-100 text-center bg-dark text-light m-5">
-            
-            <div className="card-body">
-              <div
-                className="bg-dark mb-3"
-                
-              >
-                          <Carousel/>
-
-              </div>
-              
-            </div>
-          </div>
-          
-
-
-     <div className="container mt-4">
-      <div className="row justify-content-center">
-        {/* Card 1 */}
-        <div className="col-md-5 mb-3">
-          <div className="card h-100 text-center bg-dark text-light">
-            <div className="card-header">
-              <h5 className="card-title mb-0">TAMAMLANAN PROJELERİMİZ</h5>
-            </div>
-            <div className="card-body">
-              <div
-                className="bg-light mb-3"
-                style={{ height: "150px", width: "100%" }}
-              >
-                {/* Image placeholder */}
-              </div>
-              
-            </div>
-          </div>
-        </div>
-
-        {/* Card 2 */}
-        <div className="col-md-5 mb-3">
-          <div className="card h-100 text-center bg-dark text-light">
-            <div className="card-header">
-              <h5 className="card-title mb-0">GELECEK PROJELERİMİZ</h5>
-            </div>
-            <div className="card-body">
-              <div
-                className="bg-light mb-3"
-                style={{ height: "150px", width: "100%" }}
-              >
-                {/* Image placeholder */}
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
+     <ProjectGrid/>   
     </div>
-    </div>
+    
 
       <ContactFolder/>
     
